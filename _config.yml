@@ -1,0 +1,48 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Gevosoft Technology Development
+email: contact.gevosoft@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  We are a technology development company in Finland.
+  We develop all sorts of things like apps, software, and websites.
+  All of our apps, tools and/or services are free forever!
+  We also love free software & open source and many of our projects use the GNU GPL (v.3) license.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://gevosoft.github.io" # the base hostname & protocol for your site
+
+social_sharing: true
+instagram_username: GevosoftOfficial
+github_username:  GevosoftOfficial
+google_analytic_id: UA-114360606-1
+disqus_name: gevosoft
+
+permalink: /:categories/:title
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/page/:num.html'
+  title: ':title - page :num'
+  sort_reverse: true
+
+autopages:
+  enabled: true
+  categories:
+    title: 'Posts in category :cat'
+  tags:
+    title: 'Posts tagged with :tag'
+  collections:
+    title: 'Posts in collection :coll'
+
+# jekyll seo tag settings
+logo: assets/images/example-image.png
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
