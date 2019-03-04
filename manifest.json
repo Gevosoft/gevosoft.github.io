@@ -1,5 +1,5 @@
 {
-  "name": "Gevosoft Technology Development",
+  "name": "Gevosoft",
   "short_name": "Gevosoft",
   "start_url": "index.html",
   "display": "standalone",
@@ -8,7 +8,7 @@
   "lang": "en-US",
   "orientation": "portrait-primary"
   "theme_color": "#1f1f1f"
-  "description": "We are a technology development company in Finland. We develop all sorts of things like apps, software, and websites. All of our apps, tools and/or services are free forever! We also love free software & open source and many of our projects use the GNU GPL (v.3) license.",
+  "description": "Technology Development",
   "icons": [{
     "src": "favicon.png",
     "sizes": "192x192",
