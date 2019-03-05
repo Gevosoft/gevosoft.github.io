@@ -3,7 +3,6 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2016-02-21 16:15:49 +0700
 categories: jekyll update
-commments: true
 tags:
 - jekyll
 - ruby
