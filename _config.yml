@@ -46,3 +46,5 @@ logo: favicon.png
 markdown: kramdown
 sass:
   style: compressed
+plugins:
+  jekyll-paginate
