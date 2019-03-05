@@ -10,5 +10,4 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag', '2.5.0'
   gem 'jekyll-paginate-v2', '2.0.0'
   gem 'jekyll-last-modified-at', '1.0.1'
-  gem 'jekyll-admin', group: :jekyll_plugins
 end
