@@ -8,7 +8,6 @@ tags:
 - feature
 - bullet-journal-companion
 comments: true
-analytics: true
 ---
 
 <img src="/PostMedia/post1.svg" alt="Bullet Journal Companion">
