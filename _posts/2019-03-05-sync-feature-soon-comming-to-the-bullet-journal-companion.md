@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sync Feature Soon Comming To The Bullet Journal Companion
-date:   2019-03-5
+date:   2019-03-05 21:00:00 +0200
 categories: update bullet-journal-companion
 tags:
 - update
@@ -11,7 +11,7 @@ comments: true
 analytics: true
 ---
 
-<img src="https://bulletjournal.ml/img/logo.png" alt="Bullet Journal Companion" height="70px" width="70px">
+<img src="/PostMedia/post1.svg" alt="Bullet Journal Companion">
 
 We are soon updating the [Bullet Journal Companion](https://bulletjournal.ml) to version 16.1 and this includes an exciting new feature! In older versions of the Bullet Journal Companion (before 16.0) we had a backup feature which allowed the user to push and pull logs between devices. The new Sync feature extends this functionality to not only sync whenever the app is opened and/or closed it also sync all data (except page images).
 
