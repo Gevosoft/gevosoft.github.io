@@ -40,7 +40,7 @@ autopages:
     title: 'Posts in collection :coll'
 
 # jekyll seo tag settings
-logo: assets/images/example-image.png
+logo: favicon.png
 
 # Build settings
 markdown: kramdown
