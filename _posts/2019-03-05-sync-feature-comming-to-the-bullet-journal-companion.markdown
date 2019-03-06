@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sync-Feature-Soon-Comming-To-The-Bullet-Journal-Companion
+title: Sync Feature Soon Comming To The Bullet Journal Companion
 date:   2019-03-05 21:00:00 +0200
 categories: update bujo
 comments: true
