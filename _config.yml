@@ -11,7 +11,7 @@ email: contact.gevosoft@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   We are a technology development company in Finland.
   We develop all sorts of things like apps, software, and websites.
-  All of our apps, tools and/or services are free forever!
+  We also love free software & open source!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
