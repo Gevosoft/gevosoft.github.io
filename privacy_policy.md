@@ -1,3 +1,9 @@
+---
+layout: page
+title: Privacy Policy
+permalink: /privacy_policy/
+---
+
 <h1>Privacy Policy for Gevosoft</h1>
 
 <p>At Gevosoft Service, accessible from https://gevosoft.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Gevosoft Service and how we use it.</p>
