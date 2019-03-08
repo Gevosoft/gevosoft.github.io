@@ -1,2 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-https://gevosoft.netlify.com/* https://gevosoft.com/:splat 301!
