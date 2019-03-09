@@ -1,35 +1,43 @@
-<footer class="site-footer">
+<!-- Footer -->
+<footer id="footer" class="sm-padding bg-dark">
 
-  <div class="wrapper">
+    <!-- Container -->
+    <div class="container">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+        <!-- Row -->
+        <div class="row">
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
+            <div class="col-md-12">
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
+                <!-- footer logo -->
+                <div class="footer-logo">
+                    <a href="index.html"><img src="{{ site.header_logo_alt }}" alt="Gevosoft Technology Development"></a>
+                </div>
+                <!-- /footer logo -->
 
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
+                <!-- footer follow -->
+                <ul class="footer-follow">
+                    <li><a href="{{ site.github_link }}"><i class="fa fa-github"></i></a></li>
+                    <li><a href="{{ site.instagram_link }}"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="mailto:{{ site.email }}"><i class="fa fa-envelope"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCevZxKVT6Onj59n_q59O3Cg"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://play.google.com/store/apps/dev?id=7863999736883684688&hl=en_US"><i class="fa fa-google"></i></a></li>
+                </ul>
+                <!-- /footer follow -->
 
-      <section style="font-size: 10px; padding-left: 15px;">&copy; {{  site.time | date: '%Y' }} {{ site.title }}</section>
+                <!-- footer copyright -->
+                <div class="footer-copyright">
+                    <p>© Gevosoft 2019</p>
+                </div>
+                <!-- /footer copyright -->
+
+            </div>
+
+        </div>
+        <!-- /Row -->
 
     </div>
-
-  </div>
+    <!-- /Container -->
 
 </footer>
+<!-- /Footer -->

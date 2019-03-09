@@ -1,47 +1,19 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
 title: Gevosoft Technology Development
-email: contact.gevosoft@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  We are a technology development company in Finland.
-  We develop all sorts of things like apps, software, and websites.
-  We also love free software & open source!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+header: <img src="/img/banner.png" alt="Gevosoft Technology Development" id="header_img">
+header_logo: /img/main_banner.png
+header_logo_alt: /img/main_banner_alt.png
+description: A Technology Development Company From Finland.
+email: contact@gevosoft.com
+website: https://gevosoft.com
+username: GevosoftOfficial
+github_link: https://github.com/GevosoftOfficial
+instagram_link: https://instagram.com/Gevosoft
 
-social_sharing: true
-instagram_username: GevosoftOfficial
-github_username:  GevosoftOfficial
-google_analytic_id: UA-114360606-1
-disqus_name: gevosoft
-
-permalink: /:categories/:title
-pagination:
-  enabled: true
-  per_page: 5
-  permalink: '/page/:num.html'
-  title: ':title - page :num'
-  sort_reverse: true
-
-autopages:
-  enabled: true
-  categories:
-    title: 'Posts in category :cat'
-  tags:
-    title: 'Posts tagged with :tag'
-  collections:
-    title: 'Posts in collection :coll'
-
-# jekyll seo tag settings
-logo: favicon.png
-
-# Build settings
-markdown: kramdown
-sass:
-  style: compressed
+collections:
+  portfolio:
+  features:
+  nav_items:
+  services:
+  reviews:
+plugins:
+  - jekyll-sitemap

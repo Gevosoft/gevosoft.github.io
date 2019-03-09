@@ -1,20 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  {% include head.html %}
+<head>
+	{% include head.html %}
+	{% include analytics.html %}
+</head>
 
-  <body>
+<body>
+	{% include header.html %}
+	{% include about.html %}
+	{% include portfolio.html %}
+	{% include service.html %}
+	{% include features.html %}
+	{% include pricing.html %}
+	{% include testimonial.html %}
+	{% include team.html %}
+	{% include contact.html %}
+	{% include footer.html %}
 
-    {% include header.html %}
+	<!-- Back to top -->
+	<div id="back-to-top"></div>
+	<!-- /Back to top -->
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="preloader">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<!-- /Preloader -->
 
-    {% include footer.html %}
+	<!-- jQuery Plugins -->
+	<script type="text/javascript" src="/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="/js/main.js"></script>
 
-  </body>
+</body>
 
 </html>
