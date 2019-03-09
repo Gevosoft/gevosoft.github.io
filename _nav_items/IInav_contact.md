@@ -1,0 +1,4 @@
+---
+link: contact
+title: Contact
+---

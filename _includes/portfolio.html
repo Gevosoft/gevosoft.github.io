@@ -1,0 +1,42 @@
+<!-- Portfolio -->
+<div id="portfolio" class="section md-padding bg-grey">
+
+    <!-- Container -->
+    <div class="container">
+
+        <!-- Row -->
+        <div class="row" id="portfolio_row">
+
+            <!-- Section header -->
+            <div class="section-header text-center">
+                <h2 class="title">Projects</h2>
+            </div>
+            <!-- /Section header -->
+
+            <div class="portfolio_column">
+                {% for item in site.portfolio %}
+                <!-- Work -->
+                <div class="col-md-0 col-xs-100 work">
+                    <img class="img-responsive" src="{{ item.image_overlay }}" alt="{{ item.image_overlay_alt }}" width="100%" height="auto" style="max-width: 140px;">
+                    <div class="overlay"></div>
+                    <div class="work-content">
+                        <span>{{ item.title }}</span>
+                        <h3>{{ item.description }}</h3>
+                        <div class="work-link">
+                            <a href="{{ item.link }}"><i class="fa fa-external-link"></i></a>
+                            <a class="lightbox" href="{{ item.lightbox }}"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Work -->
+                {% endfor %}
+            </div>
+
+        </div>
+        <!-- /Row -->
+
+    </div>
+    <!-- /Container -->
+
+</div>
+<!-- /Portfolio -->

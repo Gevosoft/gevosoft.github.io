@@ -1,0 +1,4 @@
+---
+link: pricing
+title: Pricing
+---

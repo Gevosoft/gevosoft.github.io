@@ -1,0 +1,46 @@
+<!-- Testimonial -->
+<div id="testimonial" class="section md-padding">
+
+    <!-- Background Image -->
+    <div class="bg-img" style="background-image: url('./img/background3.jpg');">
+        <div class="overlay"></div>
+    </div>
+    <!-- /Background Image -->
+
+    <!-- Container -->
+    <div class="container">
+
+        <!-- Row -->
+        <div class="row">
+
+            <!-- Testimonial slider -->
+            <div class="col-md-10 col-md-offset-1">
+                <div id="testimonial-slider" class="owl-carousel owl-theme">
+
+                    {% for item in site.reviews %}
+
+                    <!-- testimonial -->
+                    <div class="testimonial">
+                        <div class="testimonial-meta">
+                            <img src="{{ item.image }}" alt="Profile Picture">
+                            <h3 class="white-text">{{ item.name }}</h3>
+                            <span>{{ item.sub_title }}</span>
+                        </div>
+                        <p class="white-text">{{ item.review }}</p>
+                    </div>
+                    <!-- /testimonial -->
+
+                    {% endfor %}
+
+                </div>
+            </div>
+            <!-- /Testimonial slider -->
+
+        </div>
+        <!-- /Row -->
+
+    </div>
+    <!-- /Container -->
+
+</div>
+<!-- /Testimonial -->
