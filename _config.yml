@@ -15,5 +15,3 @@ collections:
   nav_items:
   services:
   reviews:
-plugins:
-  - jekyll-sitemap
